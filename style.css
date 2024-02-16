@@ -123,6 +123,12 @@ p {
     letter-spacing: 0.0175rem;
 }
 
+object{
+    width: 90%;
+    height: auto;
+
+}
+
 .row-profile-picture {
     display: flex;
     padding: 1.5rem 0rem;
