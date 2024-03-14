@@ -82,6 +82,7 @@ button {
 button img {
     width: 1.875rem;
     height: 1.5rem;
+    cursor: pointer;
 }
 
 h3 {
