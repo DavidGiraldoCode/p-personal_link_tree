@@ -44,7 +44,7 @@ function draw() {
     for (let y = 0; y < rows - 1; y++) {
         beginShape(LINES);
         for (let x = 0; x < colums - 1; x++) {
-            let colorStorke = y < rows / 2 ? map(y, 0, rows / 2, 0, 255) : map(y, rows / 2, rows - 1, 255, 0);
+            let colorStorke = y < rows / 2 ? map(y, 0, rows / 2, 0, 100) : map(y, rows / 2, rows - 1, 100, 0);
             stroke(colorStorke);
             vertex(x * size, y * size, terrain[y][x]);
             vertex((x + 1) * size, y * size, terrain[y][x + 1]);
